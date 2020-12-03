@@ -1,0 +1,21 @@
+{
+  "name": "gi-api",
+  "version": "1.0.0",
+  "description": "api for genshin impact",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.0",
+    "netlify-lambda": "^2.0.1",
+    "nodemon": "^2.0.6",
+    "serverless-http": "^2.6.0"
+  }
+}
